@@ -1,14 +1,36 @@
 @charset "utf-8";
 /* CSS Document */
 body {
-	background-color:lightgoldenrodyellow
+	background-color:lightseagreen;
+    color:palegoldenrod;
 }
 h1{
-	color:lightcoral
-		text-align:center;
+	background-color:palegoldenrod;
+	color:darkgoldenrod;
+	text-align:center;
 	font-size:36px
 }
+a{
+	text-decoration:none;
+}
 p{
+	background-color:peachpuff;
 	text-align:right;
-	color:palevioletred
+	color:darkslateblue;
+	line-height:10;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+
+#myp {
+	color:darkorange;
+	line-height:4;
+}
+#myid {
+	color:firebrick;
+	line-height:6;
+}
+.class {
+	color:darkolivegreen;
+	line-height:2;
+	padding:10px;
 }
